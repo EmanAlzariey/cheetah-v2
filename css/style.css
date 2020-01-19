@@ -282,7 +282,8 @@ iframe {
     background: #fff;
     border-radius: 10px;
     overflow: hidden;
-    position: relative;
+    position: absolute;
+    top: 8%
 }
 
 
@@ -699,4 +700,5 @@ input:focus~.highlight {
   .close {
      cursor:pointer;
      float:right;
+     padding: 1%;
   }
