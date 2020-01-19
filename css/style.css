@@ -740,3 +740,46 @@ input:focus~.highlight {
      float:right;
      padding: 1%;
   }
+
+  /* start services style */
+  #services {
+    height: 573px;
+    width: 100%;
+    background-color: rgb(216, 112, 74);
+}
+.ser {
+    text-align: center;
+    border: 1px solid orange;
+    border-radius: 20px;
+    width: 30px;
+    margin-top: 30px;
+    margin-left: 70px;
+    padding: 30px;
+    background-color: #fff;
+}
+
+.heading {
+ 
+    color: white;
+}
+.servi{
+    margin-left: 483px;
+    margin-top: 20PX;
+}
+.serviceIcon  img {
+    text-align: center;
+    width: 111px;
+    /* margin-left: 75px; */
+}
+
+/* .serviceIcon i {
+    font-size: 20px;
+} */
+
+.serviceText {
+    text-align: center;
+}
+.serviceText h4{
+    padding-top: 20px;
+    color: rgb(216, 112, 74);
+}
