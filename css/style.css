@@ -788,5 +788,9 @@ input:focus~.highlight {
         height: 1200px;
     
     }
+    .servi {
+        margin-left: 10px;
+        margin-top: 20px;
+    }
     
 }
