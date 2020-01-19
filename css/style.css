@@ -794,3 +794,213 @@ input:focus~.highlight {
     }
     
 }
+
+
+/* ////////////cars//////////// */
+
+/*Cars*/
+
+#cars {
+    background-color: whitesmoke;
+    display: table;
+    margin: 0;
+    max-width: none;
+    position: relative;
+    width: 100%;
+}
+
+.mt {
+    margin-left: 90px;
+}
+
+.car h1 {
+    text-align: center;
+    font-weight: bold;
+    color: #f44336;
+    padding: 10px 0px;
+    margin-bottom: 30px;
+    font-weight: 100;
+}
+
+.spec {
+    position: absolute;
+    right: 30px;
+    padding-left: 20px;
+}
+
+.carText h1 {
+    font-size: 45px;
+    text-align: center;
+    color: #f44336;
+    font-weight: 200;
+}
+
+.carText h4 {
+    font-size: 28px;
+    text-align: center;
+    color: #f44336;
+    font-weight: 600;
+}
+
+.carText ul {
+    list-style: none;
+}
+
+.carText ul li {
+    border-bottom: 1px solid #efefef;
+    font-weight: bold;
+}
+
+.carImg img {
+    width: 100%;
+    transition: all 1s;
+}
+
+.carImg img:hover {
+    transform: scale(1.1);
+    overflow: hidden;
+    clear: both;
+    transition: all 1s;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #faaa00;
+    border-color: #faaa00;
+}
+
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: 6px 10px;
+    font-size: 1rem;
+    line-height: 1.25;
+    border-radius: 0.25rem;
+    transition: all 0.15s ease-in-out;
+    margin-top: 15px;
+}
+
+.ch-logo {
+    width: 50%;
+}
+
+.ch-logo img {
+    widows: 100%;
+}
+
+.servi h1 {
+    color: white;
+}
+
+#about {
+    padding: 5rem;
+}
+
+.singleCar {
+    border-style: none;
+    background-color: white;
+    box-shadow: 0 0 6px 0 #c3c3c3;
+}
+
+.carText {
+    position: relative;
+}
+
+.rent a {
+    background-color: transparent;
+    color: #f44336;
+    border-style: solid;
+    border-color: #f44336;
+}
+
+.rent a:hover {
+    background-color: transparent;
+    color: #ffffff;
+    border-style: solid;
+    border-color: transparent;
+    background-color: #f44336;
+}
+
+li span {
+    font-weight: 500;
+}
+
+.flip-card-container {
+    width: 300px;
+    height: 319px;
+    perspective: 1000px;
+    position: relative;
+    left: 4em;
+}
+
+.flip-card {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+}
+
+.flip-card-container:hover .flip-card {
+    transform: rotateY(180deg);
+    /* <=>  rotateY(.5turn) */
+}
+
+
+/* Position the front and back side */
+
+.flip-card-front,
+.flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    /* border-radius: 0.5rem; */
+}
+
+.flip-card-front {
+    background-color: rgb(255, 255, 255);
+    color: #f44336;
+    box-shadow: 0 0 6px 0 #c3c3c3;
+}
+
+.flip-card-back {
+    background-color: rgb(26, 26, 26);
+    color: rgb(255, 255, 255);
+    transform: rotateY(180deg);
+    box-shadow: 0 0 6px 0 #c3c3c3;
+}
+
+.flip-card-front img {
+    width: 100%;
+    /* border-radius: 0.5rem; */
+}
+
+.flip-card-back p {
+    text-align: center;
+    margin: 1rem;
+    font-size: 1.4rem;
+    line-height: 1.5rem;
+}
+
+.flip-card-back p span {
+    display: block;
+    font-size: 1rem;
+    font-style: italic;
+    font-weight: bold;
+    margin-top: 1.25rem;
+}
+
+.img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
