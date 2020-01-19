@@ -8,6 +8,7 @@
 
 main{
     overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 html {
@@ -251,7 +252,7 @@ iframe {
 
 .container-contact100 {
     width: 100%;
-    height: 510px;
+    height: 400px;
     display: -webkit-box;
     display: -webkit-flex;
     display: -moz-box;
@@ -277,7 +278,7 @@ iframe {
 
 .wrap-contact100 {
     width: 480px;
-    height: 470px;
+    height: 460px;
     background: #fff;
     border-radius: 10px;
     overflow: hidden;
@@ -476,7 +477,7 @@ textarea.input100 {
     -moz-transition: all 0.4s;
     transition: all 0.4s;
     /* keep this */
-    z-index: 2;
+        z-index: 2;
     position: absolute;
     top: 50%;
     left: 48%;
@@ -640,25 +641,21 @@ input:focus~.highlight {
 
 .open {
     cursor:pointer;
-    width:50px;
-    height:30px;
-    color:white;
+    width: auto;
+    height:auto;
     border-radius:3px;
     display:inline-block;
     text-align:center; 
     background: rgb(216, 112, 74);
-    color: whitesmoke;
-    /* padding: 1% 3% 1% 3%; */
-    font-size: 90%;
     z-index: 2;
     position: absolute;
     top: 40%;
-    left: 48%;
+    left: 47.5%;
+    padding: 1%;
+    color: whitesmoke !important;
 }
-
-
   .open:hover{
-    background:black;
+    background-color: #333333;
   }
 .overlay {
   top:0; 
@@ -675,27 +672,29 @@ input:focus~.highlight {
     height:100%; 
     overflow:hidden;
   }
-      .layer-inner {
-        position: absolute;
-        top:0; 
-        bottom: 0; 
-        left: 0; 
-        right: 0;
-        margin: auto; 
-        border-radius: 5px;
-        width: 50%; 
-        height: 500px; 
-        background:white;
-        overflow-y:auto;
-      }
-          .content {
-            width: auto; 
-            height: auto; 
-            overflow: hidden; 
-            float: left; 
-            display: block;
-            padding:2% 4%;
-          }
+
+    .layer-inner {
+    position: absolute;
+    top:0; 
+    bottom: 0; 
+    left: 0; 
+    right: 0;
+    margin: auto; 
+    border-radius: 5px;
+    width: 100px; 
+    height: 500px; 
+    background:white;
+    /* overflow-y:auto; */
+    }
+
+    .content {
+    width: auto; 
+    height: auto; 
+    overflow: hidden; 
+    float: left; 
+    display: block;
+    padding:2% 4%;
+    }
 
   .close {
      cursor:pointer;

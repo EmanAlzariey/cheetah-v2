@@ -319,8 +319,8 @@ function openBox() {
     var j = jQuery; //Prevent jQuery conflicts by using J
 
     var overlayCls = ".overlay" //Overlay class
-    var contentWidth = j(document).width() / 2; //Document width dived by 2
-    var contentHeight = j(window).height() - 50; //Window height minus 50px
+    var contentWidth = j(document).width() / 2.9; //Document width dived by 2
+    var contentHeight = j(window).height() - 40; //Window height minus 50px
 
     j(".layer-inner").css({
         "width": contentWidth, //Set width based on document width
