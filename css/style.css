@@ -33,7 +33,7 @@ html {
     margin-bottom: 45px;
     margin-top: 30px;
     padding-bottom: 20px;
-    margin-right: 453px;
+   
     color: rgb(169, 80, 36);
     font-weight: bold;
 }
@@ -45,9 +45,7 @@ html {
     color: rgb(169, 80, 36);
     font-weight: 800;
 }
-.aboute{
-    margin-left: 401px;
-}
+
 
 .about p {
     color: white;
