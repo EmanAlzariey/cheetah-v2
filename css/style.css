@@ -893,9 +893,6 @@ input:focus~.highlight {
     color: white;
 }
 
-#about {
-    padding: 5rem;
-}
 
 .singleCar {
     border-style: none;
