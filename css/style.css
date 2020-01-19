@@ -764,7 +764,7 @@ input:focus~.highlight {
 }
 .servi{
     margin-left: 483px;
-    margin-top: 20PX;
+    margin-top: 20px;
 }
 .serviceIcon  img {
     text-align: center;
@@ -782,4 +782,11 @@ input:focus~.highlight {
 .serviceText h4{
     padding-top: 20px;
     color: rgb(216, 112, 74);
+}
+@media(max-width:599px){
+    #services {
+        height: 1200px;
+    
+    }
+    
 }
