@@ -8,6 +8,8 @@
 main {
   overflow-x: hidden;
   overflow-y: hidden;
+  position: relative;
+  z-index: -2;
 }
 
 html {
@@ -16,6 +18,8 @@ html {
 
 body {
   font-family: "Roboto";
+  position: relative;
+  z-index: -3;
 }
 
 /* About */
@@ -886,13 +890,13 @@ input:focus ~ .highlight {
 }
 
 .carText h1 {
-  font-size: 45px;
-  text-align: center;
-  color: rgb(240, 117, 71);
-  font-weight: 600;
-  border-bottom:1px solid rgb(240, 117, 71);;
-  /* width:120px;
-  margin-left: 20px; */
+    font-size: 45px;
+    text-align: center;
+    color: rgb(240, 117, 71);
+    font-weight: 600;
+    border-bottom: 1px solid rgb(240, 117, 71);
+    line-height: 73px;
+    border-width: 11px;
 }
 
 .carText h4 {
