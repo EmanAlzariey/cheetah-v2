@@ -1425,6 +1425,7 @@ li span {
   position: relative;
 
   background: #cdcdcd;
+  filter: invert(100%);
   border-radius: 3px;
 
   z-index: 1;
@@ -1468,6 +1469,7 @@ li span {
   position: fixed;
   top: 35px;
   right: 10px;
+  
 }
 /*
 * But let's hide the middle one.
