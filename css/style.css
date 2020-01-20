@@ -21,10 +21,9 @@ body {
 /* About */
 
 .about {
- 
 }
-#about{
-  height:520px;
+#about {
+  height: 520px;
   background-color: #0a0a0a;
   filter: brightness(1.5);
 }
@@ -75,7 +74,7 @@ body {
 footer {
   padding: 4em;
   color: azure;
-  background-color: rgb(49, 47, 44);
+  background-color: rgb(15, 15, 15);
 }
 
 footer .social a {
@@ -174,8 +173,8 @@ footer form input[type="button"]:hover {
     background-color: #e8e3da;
     padding-bottom: 3em;
   }
-  #about{
-    height:700px;
+  #about {
+    height: 700px;
     background-color: #0a0a0a;
     filter: brightness(1.5);
   }
