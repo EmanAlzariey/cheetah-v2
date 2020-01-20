@@ -788,7 +788,9 @@ input:focus ~ .highlight {
 
 .servi {
   /* margin-left: 483px; */
-  margin-top: 20px;
+
+  margin-top: 46px;
+  margin-bottom: 72px;
 }
 
 .serviceIcon img {
@@ -870,6 +872,7 @@ input:focus ~ .highlight {
 .carText ul li {
   border-bottom: 1px solid #efefef;
   font-weight: bold;
+  margin-bottom: 32px;
 }
 
 .carImg img {
