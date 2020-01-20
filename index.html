@@ -28,6 +28,67 @@
 
 <body>
 
+    <!-- HEADER SECTION-->
+
+    <header>
+            <nav role="navigation">
+                    <div id="menuToggle">
+                      <!--
+                      A fake / hidden checkbox is used as click reciever,
+                      so you can use the :checked selector on it.
+                      -->
+                      <input type="checkbox" />
+                      
+                      <!--
+                      Some spans to act as a hamburger.
+                      
+                      They are acting like a real hamburger,
+                      not that McDonalds stuff.
+                      -->
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                      
+                      <!--
+                      Too bad the menu has to be inside of the button
+                      but hey, it's pure CSS magic.
+                      -->
+                      <ul id="menu">
+                        <a href="#home"><li>Home</li></a>
+                        <a href="#"><li>About</li></a>
+                        <a href="#"><li>Services</li></a>
+                        <a href="#"><li>Cars</li></a>
+                        <a href="#"><li>Contact</li></a>
+                      </ul>
+                    </div>
+                  </nav>
+    </header>
+    <body>
+        <main>
+            <article id="home" class="post">
+                    <div>
+                      <div class="absolute-bg" style="background-image: url(./images/img/parking.jpg);"></div>
+                    </div>
+                    <div class="post__container">
+                      <span class="post__category">Welcome</span>
+                      
+                      <div class="post__content">
+                        <header>
+                          <h1 class="post__header"><span>Chetaa </span> </h1>
+                          <h5 class="post__header"> <span>For</span><span>Car</span> <span>Rental</span> <span>&</span> <span>Transport</span> <span>Services</span></h5>
+                        </header>
+                      
+                        <p class="post__text"> <p><strong><span class="element"></span></strong> </p></p>
+                      </div>
+                      <div class="post__link">
+                        <a href="#">Get A Car</a>
+                      </div>
+                    </div>
+                  </article>
+
+
+    <!-- End HEADER SECTION-->
+
     <main>
         <!-- start about ───────────────────────────────────────────────────────────────── -->
 
@@ -36,8 +97,8 @@
             <div class="container-fluid">
                 <div class="row about ">
                     <div class="col-md-12">
-                        <div class="heading aboute">
-                            <h1>ABOUT US</h1>
+                        <div class="heading">
+                            <h1 style="  color:rgb(255, 112, 66)">ABOUT US</h1>
                         </div>
                     </div>
                              <!-- here text goes -->
