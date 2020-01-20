@@ -29,6 +29,8 @@ body {
   max-width: none;
   position: relative;
   margin: 0;
+  box-shadow: 0 0 20px 0 black;
+
 }
 
 .about img {
@@ -805,6 +807,7 @@ input:focus ~ .highlight {
   width: 100%;
   background-color: #e0e0e0;
   padding-bottom: 5em;
+
 }
 
 .heading h1 {
@@ -856,6 +859,8 @@ input:focus ~ .highlight {
   position: relative;
   width: 100%;
   padding-bottom: 5em;
+  box-shadow: 0 0 20px 0 black;
+
 }
 
 .mt {
