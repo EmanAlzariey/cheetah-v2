@@ -824,7 +824,7 @@ function handleTyping(arr) {
   });
 }
 
-const arr = ["Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, iste.", "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, iste.", "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, iste."]
+const arr = ["Rent Clean Cars", "Alternative cars in case of breakdowns and accidents", "Different Types Of Cars"]
 handleTyping(arr);
 
 //nav script
