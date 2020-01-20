@@ -888,14 +888,17 @@ input:focus ~ .highlight {
 .carText h1 {
   font-size: 45px;
   text-align: center;
-  color: #e6e5e5;
-  font-weight: 600;;
+  color: rgb(240, 117, 71);
+  font-weight: 600;
+  border-bottom:1px solid rgb(240, 117, 71);;
+  /* width:120px;
+  margin-left: 20px; */
 }
 
 .carText h4 {
   font-size: 28px;
   text-align: center;
-  color: #f4af36;
+  color: rgb(240, 117, 71);;
   font-weight: 600;
 }
 
