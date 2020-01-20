@@ -344,7 +344,7 @@ iframe {
   /* padding: 15px; */
   background: transparent;
   position: relative;
-  z-index: -1;
+  z-index:0;
   /* background: #3b3937; */
 }
 
