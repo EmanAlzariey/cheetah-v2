@@ -358,7 +358,7 @@ iframe {
   /* padding: 15px; */
   background: transparent;
   position: relative;
-  z-index:0;
+  z-index: 0;
   /* background: #3b3937; */
 }
 
@@ -1510,7 +1510,7 @@ li span {
 }
 
 #menu li {
-  padding: 18% 0;
+  padding: 14% 0;
   font-size: 22px;
   text-align: center;
 }
