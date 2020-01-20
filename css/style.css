@@ -719,7 +719,7 @@ input:focus ~ .highlight {
   background: rgb(216, 112, 74);
   z-index: 2;
   position: absolute;
-  top: 63%;
+  top: 75%;
   left: 46.5%;
   padding: 1%;
   width: 7%;
