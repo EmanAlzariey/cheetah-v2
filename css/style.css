@@ -342,7 +342,7 @@ iframe {
   background: transparent;
   position: relative;
   z-index: 1;
-  background: #3b3937;
+  /* background: #3b3937; */
 }
 
 .contact100-map {
@@ -716,9 +716,10 @@ input:focus ~ .highlight {
   background: rgb(216, 112, 74);
   z-index: 2;
   position: absolute;
-  top: 40%;
-  left: 47.5%;
+  top: 63%;
+  left: 46.5%;
   padding: 1%;
+  width: 7%;
   color: whitesmoke !important;
 }
 
