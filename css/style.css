@@ -29,6 +29,8 @@ body {
   max-width: none;
   position: relative;
   margin: 0;
+  box-shadow: 0 0 20px 0 black;
+
 }
 
 .about img {
@@ -805,6 +807,7 @@ input:focus ~ .highlight {
   width: 100%;
   background-color: #e0e0e0;
   padding-bottom: 5em;
+
 }
 
 .heading h1 {
@@ -856,6 +859,8 @@ input:focus ~ .highlight {
   position: relative;
   width: 100%;
   padding-bottom: 5em;
+  box-shadow: 0 0 20px 0 black;
+
 }
 
 .mt {
@@ -1336,6 +1341,17 @@ li span {
   animation: fade-in 0.8s ease-in-out both 1s;
 }
 
+.absolute-bg:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.3;
+    background-color: #cb6c28;
+  }
+
 /**
  * Animations
  */
@@ -1456,6 +1472,7 @@ li span {
   position: relative;
 
   background: #cdcdcd;
+  filter: invert(100%);
   border-radius: 3px;
 
   z-index: 1;
@@ -1499,6 +1516,7 @@ li span {
   position: fixed;
   top: 35px;
   right: 10px;
+  
 }
 /*
 * But let's hide the middle one.
