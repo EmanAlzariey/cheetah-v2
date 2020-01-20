@@ -167,16 +167,23 @@ footer form input[type="button"]:hover {
 .ser {
   box-sizing: border-box;
   text-align: center;
-  border: 1px solid orange;
-  border-radius: 11px;
+  border-radius: 5px;
   margin-top: 30px;
   padding: 30px;
-  background-color: #f7f7f7;
+  background-color: #e8e3da;
   display: table;
   margin: 0;
   max-width: none;
   height: 64vh;
   padding-bottom: 3em;
+  background-color: #f5f5f5;
+  box-shadow: 0 0 6px 0 #ffffff;
+  transition: all 0.4s ease;
+  box-shadow: 0 0 6px 0 #585858;
+}
+
+.ser p {
+  color: #928c89;
 }
 
 @media (max-width: 992px) {
@@ -190,6 +197,7 @@ footer form input[type="button"]:hover {
     background-color: #e8e3da;
     padding-bottom: 3em;
   }
+
   #about {
     height: 700px;
     background-color: #0a0a0a;
@@ -795,12 +803,12 @@ input:focus ~ .highlight {
 #services {
   height: 619px;
   width: 100%;
-  background-color: rgb(216, 112, 74);
+  background-color: #e0e0e0;
   padding-bottom: 5em;
 }
 
 .heading h1 {
-  color: white;
+  color: #d8704a;
   font-weight: 100;
 }
 
