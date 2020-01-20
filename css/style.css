@@ -80,6 +80,8 @@ footer {
   padding: 4em;
   color: azure;
   background-color: rgb(15, 15, 15);
+  position: relative;
+    z-index: -1;
 }
 
 footer .social a {
