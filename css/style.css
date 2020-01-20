@@ -21,10 +21,9 @@ body {
 /* About */
 
 .about {
- 
 }
-#about{
-  height:520px;
+#about {
+  height: 520px;
   background-color: #0a0a0a;
   filter: brightness(1.5);
 }
@@ -40,7 +39,7 @@ body {
   text-align: center;
   margin-bottom: 45px;
   margin-top: 30px;
-  padding-bottom: 20px;
+  /* padding-bottom: 20px; */
   color: rgb(169, 80, 36);
   font-weight: bold;
 }
@@ -49,15 +48,20 @@ body {
   text-align: center;
   padding: 15px 30px;
   margin: 30px 0px 0px 0px;
-  color: rgb(169, 80, 36);
-  font-weight: 800;
+  color: rgb(255, 201, 70);
+  font-weight: 300;
 }
 
 .about p {
-  color: white;
+  color: #b27b52;
   padding: 0px 70px;
   font-size: medium;
   text-align: justify;
+  font-weight: 400;
+}
+
+.abt {
+  padding-bottom: 6em;
 }
 
 /* logo in footer */
@@ -70,7 +74,7 @@ body {
 footer {
   padding: 4em;
   color: azure;
-  background-color: rgb(49, 47, 44);
+  background-color: rgb(15, 15, 15);
 }
 
 footer .social a {
@@ -169,8 +173,8 @@ footer form input[type="button"]:hover {
     background-color: #e8e3da;
     padding-bottom: 3em;
   }
-  #about{
-    height:700px;
+  #about {
+    height: 700px;
     background-color: #0a0a0a;
     filter: brightness(1.5);
   }
@@ -179,8 +183,8 @@ footer form input[type="button"]:hover {
 .heading {
   color: #d49300;
   text-align: center;
-  /* padding-bottom: 3em;
-  padding-top: 3em; */
+  padding-bottom: 3em;
+  padding-top: 3em;
 }
 
 #contactUs {
@@ -784,7 +788,9 @@ input:focus ~ .highlight {
 
 .servi {
   /* margin-left: 483px; */
-  margin-top: 20px;
+
+  /* margin-top: 46px;
+  margin-bottom: 72px; */
 }
 
 .serviceIcon img {
@@ -866,6 +872,7 @@ input:focus ~ .highlight {
 .carText ul li {
   border-bottom: 1px solid #efefef;
   font-weight: bold;
+  margin-bottom: 32px;
 }
 
 .carImg img {
