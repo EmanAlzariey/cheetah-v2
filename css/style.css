@@ -40,7 +40,7 @@ body {
   text-align: center;
   margin-bottom: 45px;
   margin-top: 30px;
-  padding-bottom: 20px;
+  /* padding-bottom: 20px; */
   color: rgb(169, 80, 36);
   font-weight: bold;
 }
@@ -184,8 +184,8 @@ footer form input[type="button"]:hover {
 .heading {
   color: #d49300;
   text-align: center;
-  /* padding-bottom: 3em;
-  padding-top: 3em; */
+  padding-bottom: 3em;
+  padding-top: 3em;
 }
 
 #contactUs {
@@ -790,8 +790,8 @@ input:focus ~ .highlight {
 .servi {
   /* margin-left: 483px; */
 
-  margin-top: 46px;
-  margin-bottom: 72px;
+  /* margin-top: 46px;
+  margin-bottom: 72px; */
 }
 
 .serviceIcon img {
