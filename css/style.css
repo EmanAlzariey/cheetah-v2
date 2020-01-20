@@ -105,10 +105,12 @@ footer li {
 
 .linksFooter a {
   color: #b1b1b1;
+  text-decoration: none;
 }
 
 .linksFooter a:hover {
   color: whitesmoke;
+  text-decoration: none;
 }
 
 footer form input[type="text"] {
@@ -341,12 +343,12 @@ iframe {
 .wrap-contact100 {
   width: 480px;
   height: 460px;
-  background: #fff;
+  background: transparent;
   border-radius: 10px;
   overflow: hidden;
   position: absolute;
   top: 7%;
-  box-shadow: 0 0 8px 0 #bbbbbb;
+  left: 10px;
 }
 
 /*==================================================================
