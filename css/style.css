@@ -23,7 +23,7 @@ body {
 .about {
 }
 #about {
-  background-color: #0a0a0a;
+  background-color: #070707;
   filter: brightness(1.5);
   display: table;
   max-width: none;
@@ -809,7 +809,7 @@ input:focus ~ .highlight {
 
 .heading h1 {
   color: #d8704a;
-  font-weight: 100;
+  font-weight: 400;
 }
 
 .servi {
@@ -849,7 +849,7 @@ input:focus ~ .highlight {
 /*Cars*/
 
 #cars {
-  background-color: whitesmoke;
+  background-color: #070707;
   display: table;
   margin: 0;
   max-width: none;
@@ -865,10 +865,11 @@ input:focus ~ .highlight {
 .car h1 {
   text-align: center;
   font-weight: bold;
-  color: #f44336;
+ 
+  color: rgb(240, 117, 71);
   padding: 10px 0px;
   margin-bottom: 30px;
-  font-weight: 100;
+  font-weight: 400;
 }
 
 .spec {
@@ -880,14 +881,14 @@ input:focus ~ .highlight {
 .carText h1 {
   font-size: 45px;
   text-align: center;
-  color: #f44336;
-  font-weight: 200;
+  color: #e6e5e5;
+  font-weight: 600;;
 }
 
 .carText h4 {
   font-size: 28px;
   text-align: center;
-  color: #f44336;
+  color: #f4af36;
   font-weight: 600;
 }
 
@@ -955,9 +956,9 @@ input:focus ~ .highlight {
 
 .rent a {
   background-color: transparent;
-  color: #f44336;
+  color:  rgb(240, 117, 71);
   border-style: solid;
-  border-color: #f44336;
+  border-color:  rgb(240, 117, 71);
 }
 
 .rent a:hover {
@@ -1034,21 +1035,24 @@ li span {
   display: inline-block;
   justify-content: center;
   align-items: center;
-  /* border-radius: 0.5rem; */
+  border-radius: 0.5rem;
 }
 
 .flip-card-front {
-  background-color: rgb(255, 255, 255);
-  color: #f44336;
-  box-shadow: 0 0 6px 0 #c3c3c3;
+    /* background-color: rgb(255, 255, 255); */
+    color: #f44336;
+    /* box-shadow: 0 0 6px 0 #c3c3c3; */
+    background: transparent;
 }
 
 .flip-card-back {
-  background-color: rgb(26, 26, 26);
-  color: rgb(255, 255, 255);
+  background-color: rgb(255, 255, 255);
+  color: rgb(20, 19, 19);
   transform: rotateY(180deg);
-  box-shadow: 0 0 6px 0 #c3c3c3;
+  /* border-radius: :25%; */
+  box-shadow: 0 0 6px 0 #000000;
   padding: 59px;
+  /* border-radius: :50%; */
 }
 
 .flip-card-front img {
