@@ -1333,6 +1333,17 @@ li span {
   animation: fade-in 0.8s ease-in-out both 1s;
 }
 
+.absolute-bg:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.3;
+    background-color: #cb6c28;
+  }
+
 /**
  * Animations
  */
