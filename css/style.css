@@ -23,7 +23,7 @@ body {
 }
 
 #home{
-   background-color: #cb6c283b;
+   /* background-color: #cb6c283b; */
 }
 
 /* About */
@@ -1200,6 +1200,8 @@ li span {
     background-size: 39%;
     background-repeat: no-repeat;
     background-position: 60em 9em, 36em 4em;
+    position: relative;
+    z-index: -3;
 }
 
 @media(max-width:1228px){
