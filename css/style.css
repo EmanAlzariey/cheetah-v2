@@ -22,6 +22,10 @@ body {
   z-index: -3;
 }
 
+#home{
+   background-color: #cb6c283b;
+}
+
 /* About */
 
 .about {
