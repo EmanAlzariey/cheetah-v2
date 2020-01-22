@@ -5,6 +5,7 @@
   /* font-family: 'Source Sans Pro', sans-serif; */
 }
 
+
 main {
   overflow-x: hidden;
   overflow-y: hidden;
@@ -1155,6 +1156,26 @@ li span {
   background-color: #d0f2ee;
   text-shadow: none;
 }
+#home{
+  background-image: url(../images/img/carsStand.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  display: table;
+  max-width: none;
+  position: relative;
+  margin: 0;
+  z-index: -100;
+}
+
+#home::before{
+content: "";
+position: absolute;
+height: 100vh;
+width: 100%;
+background-color: #00000069;
+}
 
 /**
  * Body
@@ -1269,7 +1290,6 @@ li span {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 2em;
   overflow-y: auto;
 }
 .post__category {
@@ -1292,11 +1312,18 @@ li span {
   animation: slide-in 1s ease-in both 0.5s;
 }
 .post__content {
-  padding: 2em 0;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
 }
 @media (min-width: 54em) {
   .post__content {
     padding: 0 4em;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
   }
 }
 .post__time {
@@ -1309,6 +1336,7 @@ li span {
 }
 .post__header {
   overflow: hidden;
+  color: whitesmoke;
 }
 .post__header span {
   display: inline-block;
@@ -1334,6 +1362,10 @@ li span {
 }
 .post__link {
   text-align: right;
+  position: absolute;
+  left: 50%;
+  top: 75%;
+  transform: translate(-50%,-50%);
 }
 
 /**
