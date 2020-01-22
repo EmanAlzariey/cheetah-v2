@@ -1114,6 +1114,8 @@ li span {
     font-weight: 900;
     line-height: 0.9;
     color: #871923;
+    text-align: center;
+    /* margin-left: 34%; */
 }
 
 #home p {
@@ -1196,32 +1198,31 @@ li span {
  */
 .post {
     width: 100%;
-    background-image: url(../images/img/backround1.png), url(../images/img/background2.png);
-    background-size: 39%;
+    background-size: 100%;
     background-repeat: no-repeat;
-    background-position: 60em 9em, 36em 4em;
+    /* background-position: 60em 9em, 36em 4em; */
     position: relative;
     z-index: -3;
 }
 
 @media(max-width:1228px){
-    .post {
+    /* .post {
         width: 100%;
         background-image: url(../images/img/backround1.png), url(../images/img/background2.png);
         background-size: 39%;
         background-repeat: no-repeat;
         background-position: 51em 9em, 27em 4em;
-    }  
+    }   */
 }
 
 @media(max-width:992px){
-    .post {
+    /* .post {
         width: 100%;
         background-image: url(../images/img/backround1.png), url(../images/img/background2.png);
         background-size: 39%;
         background-repeat: no-repeat;
         background-position: 40em 14em, 24em 4em;
-    }  
+    }   */
 }
 @media (min-width: 54em) {
   .post {
@@ -1233,7 +1234,7 @@ li span {
 .post > *:first-child {
   position: relative;
   height: 14em;
-  background-color: #000;
+  background-color: #000000a8;
 }
 @media (min-width: 30em) {
   .post > *:first-child {
@@ -1261,8 +1262,8 @@ li span {
 }
 @media (min-width: 76.5em) {
   .post > *:last-child {
-    flex-basis: 40%;
-    max-width: 40%;
+    flex-basis: 100%;
+    max-width: 100%;
   }
 }
 .post__container {
@@ -1296,7 +1297,9 @@ li span {
 }
 @media (min-width: 54em) {
   .post__content {
-    padding: 0 4em;
+    /* padding: 0 4em; */
+    /* text-align: center; */
+    margin-left: 34%;
   }
 }
 .post__time {
@@ -1309,6 +1312,7 @@ li span {
 }
 .post__header {
   overflow: hidden;
+  color: white;
 }
 .post__header span {
   display: inline-block;
@@ -1345,7 +1349,7 @@ li span {
   left: 0;
   height: 100%;
   width: 100%;
-  background-position: 50%;
+  background-position: 100%;
   background-repeat: no-repeat;
   background-size: cover;
   overflow: hidden;
@@ -1361,7 +1365,7 @@ li span {
     height: 100%;
     width: 100%;
     opacity: 0.3;
-    background-color: #cb6c28;
+    background-color: #554f4b70;
   }
 
 /**
